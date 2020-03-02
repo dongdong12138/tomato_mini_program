@@ -1,0 +1,21 @@
+<view wx:if="{{condition}}" class="div1"></view>
+
+<view id="item-{{id}}">{{ message }}</view>
+
+<checkbox checked="{{condition}}"></checkbox>
+
+<view hidden="{{flag ? true : false}}">的律师费</view>
+
+<view wx:if="{{length > 5}}">沙拉的房间</view>
+
+<view>{{object.key}}{{array[0]}}</view>
+
+<view wx:for="{{array}}" wx:key="index">{{index}}-{{item}}</view>
+
+<button bindtap="click">click me</button>
+
+<view wx:for="{{arr}}">
+    <text>{{item}}</text>
+</view>
+
+<view>{{obj.text}}</view>
